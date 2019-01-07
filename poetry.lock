@@ -1,0 +1,89 @@
+[[package]]
+category = "main"
+description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+name = "django"
+optional = false
+python-versions = ">=3.5"
+version = "2.1.4"
+
+[package.dependencies]
+pytz = "*"
+
+[[package]]
+category = "main"
+description = "Django Admin Extensions"
+name = "django-admin"
+optional = false
+python-versions = "*"
+version = "1.3.2"
+
+[package.dependencies]
+django-excel-response2 = ">=2.0.8"
+
+[[package]]
+category = "main"
+description = "A function extends of Tarken's django-excel-response"
+name = "django-excel-response2"
+optional = false
+python-versions = "*"
+version = "2.0.8"
+
+[package.dependencies]
+django-six = ">=1.0.4"
+pytz = "*"
+screen = "*"
+xlwt = "*"
+
+[[package]]
+category = "main"
+description = "Django-six —— Django Compatibility Library"
+name = "django-six"
+optional = false
+python-versions = "*"
+version = "1.0.4"
+
+[[package]]
+category = "dev"
+description = "A Python utility / library to sort Python imports."
+name = "isort"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "4.3.4"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2018.7"
+
+[[package]]
+category = "main"
+description = "Screen width and so on"
+name = "screen"
+optional = false
+python-versions = "*"
+version = "1.0.1"
+
+[[package]]
+category = "main"
+description = "Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform, with Python 2.6, 2.7, 3.3+"
+name = "xlwt"
+optional = false
+python-versions = "*"
+version = "1.3.0"
+
+[metadata]
+content-hash = "75409221567a53a1dd9020dc0c5ff27011eddb2f5bcebfab73145a1e298737a5"
+python-versions = "^3.7"
+
+[metadata.hashes]
+django = ["068d51054083d06ceb32ce02b7203f1854256047a0d58682677dd4f81bceabd7", "55409a056b27e6d1246f19ede41c6c610e4cab549c005b62cbeefabc6433356b"]
+django-admin = ["2f507fc822b7af4191bf866b620c8a2d0e6e8641ee66ee32a73233b5eca4d04d", "78182b41416b9d6ff469015d438911c64ce4ba210a2242da3c77e6de85c2d86b"]
+django-excel-response2 = ["0239654e95f375e8eab37a655171bd8c8a896b9b80afa41fd05abecd2d057873", "a1abe97fb2773910d32ed0a222c20cd6ae8f241025a6b509a424a2b91defb7a2"]
+django-six = ["b05c96f5a7dbdcf9b513748df27421e8d63e586399bac80a928a29d97d78d450", "d307483f3591fa3b471a3724659710229ea3127e112499f2b6f7fa7faa1e27e4"]
+isort = ["1153601da39a25b14ddc54955dbbacbb6b2d19135386699e2ad58517953b34af", "b9c40e9750f3d77e6e4d441d8b0266cf555e7cdabdcff33c4fd06366ca761ef8", "ec9ef8f4a9bc6f71eec99e1806bfa2de401650d996c59330782b89a5555c1497"]
+pytz = ["31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca", "8e0f8568c118d3077b46be7d654cc8167fa916092e28320cde048e54bfc9f1e6"]
+screen = ["29009e0306d005679cc43c8cd69856a046265433310c10e71920591de3c58fda", "aebfe90de7b8a646d4f3c2b214bd6ffa2ab12ed9d0b14c08620d9c7f7b8ee670"]
+xlwt = ["a082260524678ba48a297d922cc385f58278b8aa68741596a87de01a9c628b2e", "c59912717a9b28f1a3c2a98fd60741014b06b043936dcecbc113eaaada156c88"]

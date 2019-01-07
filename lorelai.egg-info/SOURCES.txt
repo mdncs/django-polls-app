@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+lorelai/__init__.py
+lorelai.egg-info/PKG-INFO
+lorelai.egg-info/SOURCES.txt
+lorelai.egg-info/dependency_links.txt
+lorelai.egg-info/requires.txt
+lorelai.egg-info/top_level.txt
